@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.theme-btn {
+  @apply text-white bg-primary-color hover:bg-primary-color-dark duration-300 font-medium rounded-lg px-4 lg:px-4 py-2 lg:py-2 mr-2 focus:outline-none border-2 border-primary-color;
+}
+
+.theme-dark-btn {
+  @apply text-white bg-gray-800 hover:bg-gray-900 duration-300 font-medium rounded-lg px-4 lg:px-4 py-2 lg:py-2 mr-2 focus:outline-none border-2 border-gray-800;
+}
+
+.theme-btn-2 {
+  @apply text-primary-color bg-transparent duration-300 font-medium rounded-lg px-4 lg:px-4 py-2 lg:py-2 mr-2 focus:outline-none border-2 border-primary-color;
+}
+
+.para {
+  @apply text-[17px] leading-relaxed
+}
+
+.heading-2 {
+  @apply text-[27px] sm:text-[64px] font-[700]
+}
+
+.heading-3 {
+  @apply text-[20px] sm:text-[34px] font-[700]
+}
