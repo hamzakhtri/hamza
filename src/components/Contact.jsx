@@ -59,7 +59,7 @@ const Contact = () => {
         <section id="contact" className="bg-secondary-color dark:bg-gray-800 px-5 sm:px-10 lg:px-20 pb-20 text-white scroll-mt-16">
             <h2 className="heading-2 text-center mb-10 text-primary-color">&lt;Contact/&gt;</h2>
 
-            <div className="grid grid-cols-12 justify-center gap-8 container w-[100%] md:w-[70%] mx-auto">
+            <div className="grid grid-cols-12 justify-center gap-8 container w-[100%] md:w-[80%] mx-auto">
                 {/* Contact Info Cards */}
                 <div className="col-span-12 lg:col-span-5 space-y-6">
                     {contactInfo.map((item, idx) => (
