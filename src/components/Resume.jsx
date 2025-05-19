@@ -103,7 +103,7 @@ const skillVariant = {
 const Resume = () => {
     return (
         <>
-            <section id='resume' className="bg-secondary-color dark:bg-gray-800 px-5 sm:px-10 lg:px-20 pb-10 text-white scroll-mt-16">
+            <section id='resume' className="bg-secondary-color overflow-x-hidden dark:bg-gray-800 px-5 sm:px-10 lg:px-20 pb-10 text-white scroll-mt-16">
                 <h2 className="heading-2 text-center mb-10 text-primary-color">&lt;Resume/&gt;</h2>
 
                 {/* Main Grid */}
