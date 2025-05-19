@@ -7,9 +7,11 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
+body {
+  overflow-x: hidden !important;
+}
 
 .theme-btn {
   @apply text-[14px] sm:text-[16px] text-white bg-primary-color hover:bg-primary-color-dark duration-300 font-medium rounded-lg px-3 lg:px-4 py-1 lg:py-2 focus:outline-none border-2 border-primary-color;
