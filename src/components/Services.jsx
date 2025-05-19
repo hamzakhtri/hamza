@@ -5,14 +5,14 @@ import bottomWave from "../assets/images/bottom-wave.svg";
 
 const servicesData = [
   {
-    title: 'PSD to HTML',
-    icon: <FaLaptopCode size={48} />,
-    description: 'Transforming your creative designs into pixel-perfect websites with modern best practices.',
-  },
-  {
     title: 'React JS Development',
     icon: <FaReact size={48} />,
     description: 'Developing robust, scalable web applications using React.js and the latest technologies.',
+  },
+  {
+    title: 'PSD to HTML',
+    icon: <FaLaptopCode size={48} />,
+    description: 'Transforming your creative designs into pixel-perfect websites with modern best practices.',
   },
   {
     title: 'UI Bug Fixing',
@@ -75,7 +75,7 @@ const Services = () => (
         {servicesData.map((service, idx) => (
           <motion.div
             key={idx}
-            className="bg-gray-800 text-white p-6 rounded-lg shadow-md h-full"
+            className="bg-gray-800 text-white px-6 py-9 rounded-lg shadow-md h-full"
             variants={cardVariants}
             whileHover={{
               rotateY: 5,

@@ -8,22 +8,26 @@ const contactInfo = [
     {
         icon: <FaPhoneAlt className="text-primary-color w-5 h-5" />,
         title: 'Phone',
-        value: '+1 234 567 890',
+        value: '+92 307 2073643',
+        href: 'tel:+923072073643',
     },
     {
         icon: <FaEnvelope className="text-primary-color w-5 h-5" />,
         title: 'Email',
-        value: 'example@email.com',
+        value: 'hamzakhatri12345@gmail.com',
+        href: 'mailto:hamzakhatri12345@gmail.com',
     },
     {
         icon: <FaLinkedinIn className="text-primary-color w-5 h-5" />,
         title: 'LinkedIn',
-        value: 'linkedin.com/in/yourprofile',
+        value: 'Visit LinkedIn Profile',
+        href: 'https://www.linkedin.com/in/hamza-ali-soomro-44148323b/',
     },
     {
         icon: <FaGithub className="text-primary-color w-5 h-5" />,
         title: 'GitHub',
-        value: 'github.com/yourusername',
+        value: 'Visit GitHub Profile',
+        href: 'https://github.com/hamzakhtri',
     },
 ];
 
@@ -34,7 +38,7 @@ const cardVariant = {
         opacity: 1,
         y: 0,
         transition: {
-            delay: i * 0.2, // staggered appearance
+            delay: i * 0.2,
             duration: 0.5,
             ease: 'easeOut',
         },
@@ -63,23 +67,26 @@ const Contact = () => {
                 {/* Contact Info Cards */}
                 <div className="col-span-12 lg:col-span-5 space-y-6">
                     {contactInfo.map((item, idx) => (
-                        <motion.div
+                        <motion.a
                             key={idx}
                             custom={idx}
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true }}
                             variants={cardVariant}
-                            className="flex items-center p-4 rounded-xl border border-primary-color bg-white dark:bg-gray-700 shadow-md"
+                            href={item.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center p-4 rounded-xl border border-primary-color bg-white dark:bg-gray-700 shadow-md hover:bg-gray-100 dark:hover:bg-gray-600 transition"
                         >
                             <div className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 mr-4">
                                 {item.icon}
                             </div>
-                            <div>
+                            <div className="flex-1">
                                 <h4 className="text-gray-900 dark:text-white font-semibold text-lg">{item.title}</h4>
                                 <p className="text-gray-600 dark:text-gray-300 text-sm">{item.value}</p>
                             </div>
-                        </motion.div>
+                        </motion.a>
                     ))}
                 </div>
 

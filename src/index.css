@@ -11,7 +11,7 @@ html {
 
 
 .theme-btn {
-  @apply text-white bg-primary-color hover:bg-primary-color-dark duration-300 font-medium rounded-lg px-4 lg:px-4 py-2 lg:py-2 mr-2 focus:outline-none border-2 border-primary-color;
+  @apply text-[14px] sm:text-[16px] text-white bg-primary-color hover:bg-primary-color-dark duration-300 font-medium rounded-lg px-3 lg:px-4 py-1 lg:py-2 focus:outline-none border-2 border-primary-color;
 }
 
 .theme-dark-btn {

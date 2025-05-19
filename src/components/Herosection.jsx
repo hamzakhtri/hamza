@@ -3,7 +3,6 @@ import { motion, useAnimation, useMotionValue, useTransform, useSpring } from 'f
 import heroImage from "../assets/images/hero-img.png";
 import topWave from "../assets/images/top-wave.svg";
 
-
 function Herosection() {
   // Section ref for image tilt
   const sectionRef = useRef(null);
@@ -54,7 +53,7 @@ function Herosection() {
       <section
         ref={sectionRef}
         id="about"
-        className="bg-secondary-color dark:bg-gray-800 pt-[5%] pb-[6%] px-[20px] sm:px-[70px] scroll-mt-16"
+        className="bg-secondary-color dark:bg-gray-800 pt-[12%] sm:pt-[5%] pb-[14%] sm:pb-[6%] px-[20px] sm:px-[70px] scroll-mt-16"
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
       >
@@ -81,8 +80,10 @@ function Herosection() {
             <p className="para py-4 text-gray-800 dark:text-slate-50">
               With two years of hands-on experience in front-end development, I have built numerous web applications using modern technologies such as React, Redux, Firebase, and more.
             </p>
-            <button className="theme-btn mr-4">Download CV</button>
-            <button className="theme-btn-2">Explore Projects</button>
+            <div className="mt-5">
+              <a href="./resume/hamzaali.pdf" className="theme-btn mr-4">Download CV</a>
+              <a href="#portfolio" className="theme-btn-2">Explore Projects</a>
+            </div>
           </div>
 
           {/* Image Block */}

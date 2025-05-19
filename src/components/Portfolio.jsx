@@ -12,7 +12,7 @@ const projects = [
             'E-Carpool is a carpooling platform where users can post and join rides between cities. It helps save travel costs and reduce carbon emissions.',
         description2:
             'Built with React JS, Redux, Firebase, and React-Bootstrap. Includes real-time chat, trip posting, and user authentication.',
-        link: 'https://e-carpool.example.com',
+        link: 'https://e-carpool-71cc9.web.app/',
         img: 'port1.png',
     },
 
@@ -22,7 +22,7 @@ const projects = [
             'Online travel booking system where users can book trips. Includes a dashboard for admin to manage trips, users, and bookings.',
         description2:
             'Built using React JS, Redux, Tailwind CSS, and Ant Design. Features PayPal integration and responsive design.',
-        link: 'https://project3.example.com',
+        link: 'https://booking.tripsandtours.uk/',
         img: 'port3.png',
     },
     {
@@ -31,7 +31,7 @@ const projects = [
             'A POS system with roles for Admin, Staff, Kitchen, and Delivery. Manages orders, invoices, and user operations in restaurants.',
         description2:
             'Created with React JS, Redux, Ant Design, Axios, and Tailwind CSS. Focused on smooth workflows and real-time updates.',
-        link: 'https://project4.example.com',
+        link: 'https://posuk.vercel.app/',
         img: 'port4.png',
     },
     {
@@ -40,7 +40,7 @@ const projects = [
             'A professional website for an agency offering book writing, designing, and ghostwriting services. Includes lead forms for client contact.',
         description2:
             'Developed using HTML, CSS, JS, Bootstrap, jQuery, AJAX, and PHP. Fully responsive with custom form handling.',
-        link: 'https://project2.example.com',
+        link: 'https://elitebookauthors.com/',
         img: 'port2.png',
     },
 ];
@@ -102,7 +102,7 @@ const Portfolio = () => {
 
                                 {/* Content Box */}
                                 <div
-                                    className={`px-8 py-4 flex items-center bg-gray-800 rounded-2xl shadow-lg h-full ${isEven ? 'md:order-2' : 'md:order-1'
+                                    className={`px-8 py-8 sm:py-4 flex items-center bg-gray-800 rounded-2xl shadow-lg h-full ${isEven ? 'md:order-2' : 'md:order-1'
                                         }`}
                                 >
                                     <div>

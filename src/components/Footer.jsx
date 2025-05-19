@@ -18,40 +18,45 @@ const Footer = () => {
                 </p>
                 <div className="flex justify-center space-x-8 text-2xl">
                     <a
-                        href="https://wa.me/1234567890"
+                        href="https://wa.me/+923072073643"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-gray-200 transition"
+                        aria-label="WhatsApp"
                     >
                         <FaWhatsapp />
                     </a>
                     <a
-                        href="https://facebook.com/yourprofile"
+                        href="https://www.facebook.com/hamzaalisoomroo"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-gray-200 transition"
+                        aria-label="Facebook"
                     >
                         <FaFacebookF />
                     </a>
                     <a
-                        href="https://linkedin.com/in/yourprofile"
+                        href="https://www.linkedin.com/in/hamza-ali-soomro-44148323b/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-gray-200 transition"
+                        aria-label="LinkedIn"
                     >
                         <FaLinkedinIn />
                     </a>
                     <a
-                        href="https://github.com/yourusername"
+                        href="https://github.com/hamzakhtri"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-gray-200 transition"
+                        aria-label="GitHub"
                     >
                         <FaGithub />
                     </a>
                     <a
-                        href="mailto:example@email.com"
+                        href="mailto:hamzakhatri12345@gmail.com"
                         className="hover:text-gray-200 transition"
+                        aria-label="Email"
                     >
                         <FaEnvelope />
                     </a>
@@ -60,7 +65,8 @@ const Footer = () => {
 
             {/* Secondary Footer */}
             <div className="bg-gray-800 text-base text-gray-300 py-4">
-                &copy; {new Date().getFullYear()} Hamza Ali. All rights reserved.
+                &copy; {new Date().getFullYear()} Hamza Ali. All rights reserved.{' '}
+                <small><i>Designed and Developed By Hamza Ali</i></small>
             </div>
         </footer>
     );
