@@ -146,11 +146,9 @@ const Contact = () => {
                             type="submit"
                             className="w-full bg-gray-900 dark:bg-primary-color text-white py-4 rounded-full hover:opacity-90 transition"
                         >
-                            Send Message
+                            {status ? status: "Send Message"}
                         </button>
                     </form>
-                    {/* Status Feedback */}
-                    {status && <p className="mt-4 text-center transition-opacity duration-500">{status}</p>}
                 </motion.div>
 
             </div>
