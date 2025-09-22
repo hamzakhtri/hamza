@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 import { motion, useAnimation, useMotionValue, useTransform, useSpring } from 'framer-motion';
 import heroImage from "../assets/images/hero-img.png";
 import topWave from "../assets/images/top-wave.svg";
@@ -89,7 +89,7 @@ function Herosection() {
           {/* Image Block */}
           <div className="flex justify-center perspective-[1000px]">
             <motion.img
-              src={heroImage}
+              src={'/images/hamza-img.png'}
               alt="Hero"
               className="w-[80%] will-change-transform"
               style={{ rotateX: smoothX, rotateY: smoothY, transformStyle: 'preserve-3d' }}
