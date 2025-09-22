@@ -61,7 +61,7 @@ function Herosection() {
           {/* Text Block */}
           <div>
             <p className="text-[18px] sm:text-[20px] font-[600] text-primary-color">
-              Hello, I’m Hamza Ali.
+              Hello, I’m Mr Hamza.
             </p>
             <h1 className="text-[30px] sm:text-[55px] font-[800] text-gray-800 leading-tight dark:text-slate-50 flex flex-wrap">
               {words.map((word, idx) => (

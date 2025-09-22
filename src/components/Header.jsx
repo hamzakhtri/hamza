@@ -57,7 +57,7 @@ export default function Header() {
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
             <span className="text-primary-color text-[26px] tracking-wide leading-tight font-[900]">
-              &lt;<span className="text-gray-800 leading-tight font-[700] dark:text-slate-50">Hamza Ali</span>/&gt;
+              &lt;<span className="text-gray-800 leading-tight font-[700] dark:text-slate-50">Mr Hamza</span>/&gt;
             </span>
           </Link>
 

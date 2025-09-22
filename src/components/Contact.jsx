@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser';
 
 // 1. Contact info data (unchanged)
 const contactInfo = [
-    { icon: <FaPhoneAlt className="text-primary-color w-5 h-5" />, title: 'Phone', value: '+92 307 2073643', href: 'tel:+923072073643' },
+    { icon: <FaPhoneAlt className="text-primary-color w-5 h-5" />, title: 'Phone', value: '+92 317 2543144', href: 'tel:+923172543144' },
     { icon: <FaEnvelope className="text-primary-color w-5 h-5" />, title: 'Email', value: 'hamzakhatri12345@gmail.com', href: 'mailto:hamzakhatri12345@gmail.com' },
     { icon: <FaLinkedinIn className="text-primary-color w-5 h-5" />, title: 'LinkedIn', value: 'Visit LinkedIn Profile', href: 'https://www.linkedin.com/in/hamza-ali-soomro-44148323b/' },
     { icon: <FaGithub className="text-primary-color w-5 h-5" />, title: 'GitHub', value: 'Visit GitHub Profile', href: 'https://github.com/hamzakhtri' },

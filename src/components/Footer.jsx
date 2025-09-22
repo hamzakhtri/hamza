@@ -12,7 +12,7 @@ const Footer = () => {
         <footer className="text-center text-white">
             {/* Primary Footer */}
             <div className="bg-primary-color px-5 py-10">
-                <h3 className="text-3xl font-bold mb-4">Hamza Ali</h3>
+                <h3 className="text-3xl font-bold mb-4">Mr Hamza</h3>
                 <p className="text-base mb-6">
                     Front-End Developer | React | Firebase | Tailwind CSS
                 </p>
@@ -65,8 +65,8 @@ const Footer = () => {
 
             {/* Secondary Footer */}
             <div className="bg-gray-800 text-base text-gray-300 py-4">
-                &copy; {new Date().getFullYear()} Hamza Ali. All rights reserved.{' '}
-                <small><i>Designed and Developed By Hamza Ali</i></small>
+                &copy; {new Date().getFullYear()} Mr Hamza. All rights reserved.{' '}
+                <small><i>Designed and Developed By Mr Hamza</i></small>
             </div>
         </footer>
     );
